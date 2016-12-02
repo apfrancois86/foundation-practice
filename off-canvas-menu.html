@@ -1,0 +1,100 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- <script src="/js/vendor/modernizr.js"></script> -->
+
+  </head>
+  <body>
+    <div class="off-canvas-wrapper">
+    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+      <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
+        <ul class="vertical menu" data-drilldown><!-- start of the drilldown multi level menu -->
+          <li>
+            <a>Item 1</a>
+            <ul class="vertical menu">
+              <li><a href="#">Item 1A</a></li>
+              <li><a href="#">Item 1B</a></li>
+              <li><a href="#">Item 1C</a></li>
+              <li><a href="#">Item 1D</a></li>
+              <li><a href="#">Item 1E</a></li>
+            </ul>
+          </li>
+          <li>
+            <a>Item 2</a>
+            <ul class="vertical menu">
+              <li><a href="#">Item 2A</a></li>
+              <li><a href="#">Item 2B</a></li>
+              <li><a href="#">Item 2C</a></li>
+              <li><a href="#">Item 2D</a></li>
+              <li><a href="#">Item 2E</a></li>
+            </ul>
+          </li>
+          <li>
+            <a>Item 3</a>
+            <ul class="vertical menu">
+              <li><a href="#">Item 3A</a></li>
+              <li><a href="#">Item 3B</a></li>
+              <li><a href="#">Item 3C</a></li>
+              <li><a href="#">Item 3D</a></li>
+              <li><a href="#">Item 3E</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Item 4</a></li>
+        </ul>
+      </div>
+      <div class="off-canvas-content" data-off-canvas-content>
+        <div class="title-bar">
+          <div class="title-bar-left">
+            <button class="menu-icon" type="button" data-open="offCanvasLeft"></button>
+            <span class="title-bar-title">Foundation</span>
+          </div>
+          <div class="title-bar-right">
+            <button class="menu-icon" type="button" data-open="offCanvasRight"></button>
+          </div>
+        </div>
+        <p><span class="label">Lorem ipsum dolor sit amet</span>, check out <kbd>Ctrl + Del</kbd>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <!-- <div class="callout" data-closable>
+          <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+         <span aria-hidden="true">&times;</span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+         </button>
+       </div> -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+  <fieldset class="large-6 columns">
+    <legend>Choose Your Favorite</legend>
+    <input type="radio" name="pokemon" value="Red" id="pokemonRed" required><label for="pokemonRed">Red</label>
+    <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
+    <input type="radio" name="pokemon" value="Yellow" id="pokemonYellow"><label for="pokemonYellow">Yellow</label>
+  </fieldset>
+  <fieldset class="large-6 columns">
+    <legend>Check these out</legend>
+    <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+    <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+    <input id="checkbox3" type="checkbox"><label for="checkbox3">Checkbox 3</label>
+  </fieldset>
+</div>
+
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <!-- <script src="js/vendor/what-input.js"></script> -->
+    <script src="js/vendor/foundation.min.js"></script>
+    <!-- <script src="js/app.js"></script> -->
+    <script>
+    $(document).foundation();
+    </script>
+  </body>
+</html>
